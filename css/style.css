@@ -1,0 +1,111 @@
+@font-face{
+   font-family:PlayfairDisplay-Italic ;
+   src: url(../fonts/playfair-display/PlayfairDisplay-Italic.otf);
+
+}
+
+
+/*common css*/
+body{
+   margin: 0;
+   font-family:'Playfair Display', serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: #626262;
+
+}
+
+/*header statt*/
+.header {padding: 35px 0;
+}
+
+.container {
+            width: 90%;
+            margin: 0 auto;
+            /*border: 1px solid;*/
+            overflow: hidden;
+}
+
+.logo {
+      /* border: 1px solid;*/
+       width: 11%;
+       float: left;
+       margin-top: 1px;
+}
+
+.logo a {
+}
+
+.logo a img {
+             width: 100%;
+}
+
+.menu {
+       width: 60%;
+      /* border: 1px solid;*/
+       float: right;
+
+}
+.menu ul {
+   margin: 0;
+}
+.menu ul li {float: left;
+             list-style-type: none;
+          }
+.menu ul li a {
+       text-decoration: none;
+       display: inline-block;
+       margin: 0px 50px;
+       padding: 4px 0;
+       color:#626262;
+       text-transform: uppercase;
+       border-bottom: 1px solid transparent;
+       transition: 0.33s;
+}
+.menu ul li:last-child a{
+   margin-right:0 ;
+}
+
+.menu ul li a:hover{
+   border-bottom:1px solid #626262; }
+
+.menu ul li:last-child a{
+   padding-right:0 ;}
+/*header end*/
+
+/*banner section start*/
+ .banner{}
+ .b_img{}
+ .b_img img{
+   width: 100%;
+ }
+/*banner section end*/
+/*message section start*/
+.message {padding-top:90px;
+}
+
+.container2 {width: 80%;
+             /*border: 1px solid;*/
+             margin: 0 auto;
+}
+
+.light {margin: 0;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        color: #b4ad9e;
+        text-transform: uppercase;
+}
+
+.title {margin: 20px 0 30px;
+        font-size: 30px;
+        font-weight: 400;
+}
+
+.text {margin: 0;
+       line-height: 24px;
+}
+.mt_40{
+   margin-top: 40px;
+}
+/*message section end*/
